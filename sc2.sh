@@ -11,7 +11,8 @@ then
 elif [ $a -gt 15000  -a  $a -le 30000 ];
 then
 	echo "5% tax"
-else
+elif [ $a -gt 30000 ];
+then
 	echo "10% tax"
 fi
 

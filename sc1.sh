@@ -8,7 +8,7 @@ echo "enter username"
 read u
 echo "enter password"
 read p
-until [ $duname == $u ] && [ $dpasswd == $p ];
+until [ $duname == $u ] && [ $dpasswd ==i $p ];
 do
 	echo "unsuccessful"
 	echo "enter valid username"
